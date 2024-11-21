@@ -1,7 +1,7 @@
 BoxLayout
     orientation: 'vertical'
     BoxLayout
-        orientation 'vertical'
+        orientation: 'vertical'
         Button
             text: 'Cheese $12.50'
         Button
@@ -9,8 +9,9 @@ BoxLayout
         Button
             text: 'Plant $4.75'
     BoxLayout
+        size_hint_y: 0.5
         Label
-            text: total_price
+        # Change this to a variable
+            text: 'Total price $total_price'
         Button
-            color: (1, 1, 0, 0)
-            text: 'reset'
+            text: 'Reset'
